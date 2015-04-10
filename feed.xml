@@ -5,8 +5,8 @@
     <description>HowStuffWorks App Design Notes</description>
     <link>http://nandorocker.github.io/hsw-notes//</link>
     <atom:link href="http://nandorocker.github.io/hsw-notes//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Apr 2015 04:58:27 +0200</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2015 04:58:27 +0200</lastBuildDate>
+    <pubDate>Fri, 10 Apr 2015 05:00:27 +0200</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2015 05:00:27 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -56,7 +56,7 @@
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;/images/loading-more.png&quot; alt=&quot;Loading&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/hsw-notes/images/loading-more.png&quot; alt=&quot;Loading&quot; /&gt;&lt;/p&gt;
 
 &lt;div id=&quot;3&quot;&gt;&lt;/div&gt;
 
@@ -70,7 +70,7 @@
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;/images/ptr.gif&quot; width=&quot;320&quot; alt=&quot;PTR&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/hsw-notes/images/ptr.gif&quot; width=&quot;320&quot; alt=&quot;PTR&quot; /&gt;&lt;/p&gt;
 
 &lt;div id=&quot;4&quot;&gt;&lt;/div&gt;
 
@@ -84,7 +84,7 @@
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;/images/selected-tab.png&quot; alt=&quot;Tab&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/hsw-notes/images/selected-tab.png&quot; alt=&quot;Tab&quot; /&gt;&lt;/p&gt;
 
 &lt;div id=&quot;5&quot;&gt;&lt;/div&gt;
 
@@ -96,7 +96,7 @@
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;/images/feed-spacing.jpg&quot; alt=&quot;Feed&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/hsw-notes/images/feed-spacing.jpg&quot; alt=&quot;Feed&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Add zoom animation when user taps (similar to Feedly)&lt;/li&gt;
@@ -104,7 +104,7 @@
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;/images/feedly.gif&quot; alt=&quot;Feedly&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/hsw-notes/images/feedly.gif&quot; alt=&quot;Feedly&quot; /&gt;&lt;/p&gt;
 
 &lt;div id=&quot;6&quot;&gt;&lt;/div&gt;
 
@@ -142,7 +142,7 @@
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;/images/search-bar.png&quot; width=&quot;320&quot; alt=&quot;Search&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/hsw-notes/images/search-bar.png&quot; width=&quot;320&quot; alt=&quot;Search&quot; /&gt;&lt;/p&gt;
 
 &lt;div id=&quot;9&quot;&gt;&lt;/div&gt;
 
@@ -163,7 +163,7 @@
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;/images/now-playing.png&quot; width=&quot;320&quot; alt=&quot;Now playing&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/hsw-notes/images/now-playing.png&quot; width=&quot;320&quot; alt=&quot;Now playing&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;On iPad&lt;/h3&gt;
 
@@ -211,7 +211,7 @@
 
 &lt;p&gt;See this &lt;a href=&quot;http://pixt.io/p77d81791ad04&quot;&gt;Pixate demo&lt;/a&gt; for more details.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/quiz-2.png&quot; width=&quot;320&quot; alt=&quot;Quiz 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/hsw-notes/images/quiz-2.png&quot; width=&quot;320&quot; alt=&quot;Quiz 2&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Apr 2015 00:00:00 +0200</pubDate>
         <link>http://nandorocker.github.io/hsw-notes//2015/04/07/hsw-design-round-up.html</link>
