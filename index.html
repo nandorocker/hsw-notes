@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">HSW App Design Notes</h1>
+
+  <div class="list-group">
+    {% for post in site.posts %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="list-group-item">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          {{ post.title }}
+        </h2>
+      </a>
+    {% endfor %}
+  </div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

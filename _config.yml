@@ -1,0 +1,11 @@
+# Site settings
+title: HowStuffWorks App Design Notes
+email: nando@23divide.com
+description: HowStuffWorks App Design Notes
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://nandorocker.github.io/hsw-notes" # the base hostname & protocol for your site
+twitter_username: nandorocker
+github_username:  nandorocker
+
+# Build settings
+markdown: rdiscount
