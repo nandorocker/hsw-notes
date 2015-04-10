@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Hsw Design Round Up</title>
+  <meta name="description" content="App Content &amp; behavior.">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://nandorocker.github.io/hsw-notes/2015/04/07/hsw-design-round-up.html">
+  <link rel="alternate" type="application/rss+xml" title="HowStuffWorks App Design Notes" href="http://nandorocker.github.io/hsw-notes/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header>
+
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">HowStuffWorks App Design Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav navbar-right">
+          
+            
+          
+            
+          
+            
+          
+      </ul>
+    </div>
+  </nav>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="container">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Hsw Design Round Up</h1>
+    <p class="post-meta">Apr 7, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <p>App Content &amp; behavior.</p>
+
+<hr />
+
+<h1>Index</h1>
+
+<ul>
+<li><a href="#1">General</a></li>
+<li><a href="#2">Preloading Content</a></li>
+<li><a href="#3">Pull-to-refresh</a></li>
+<li><a href="#4">Tab bar</a></li>
+<li><a href="#5">Feed view</a></li>
+<li><a href="#6">Top navigation bar</a></li>
+<li><a href="#7">Article navigation bar</a></li>
+<li><a href="#8">Search</a></li>
+<li><a href="#9">Now Playing</a></li>
+<li><a href="#10">Picture View</a></li>
+<li><a href="#11">Quizzes</a></li>
+</ul>
+
+
+<hr />
+
+<div id="1"></div>
+
+
+<h2>General</h2>
+
+<ul>
+<li>Fonts: lots of stuff still Helvetica (most should be Source Sans Pro)</li>
+</ul>
+
+
+<div id="2"></div>
+
+
+<h3>Preloading content</h3>
+
+<ul>
+<li>Currently, we are loading table views (reading list, feeds, search, etc) with empty images on them. That should never happen. Bad UX.</li>
+<li>Would prefer to have the entire page pre-loading and show the animation me and James created</li>
+<li>On feeds, we should load 10 (or X) posts at a time and have them all loaded when you scroll down</li>
+</ul>
+
+
+<p><img src="/images/loading-more.png" alt="Loading" /></p>
+
+<div id="3"></div>
+
+
+<h3>Pull-to-refresh</h3>
+
+<ul>
+<li>Currently missing</li>
+<li>Upon full pull, loop ? animation</li>
+<li>Should be available everywhere</li>
+</ul>
+
+
+<p><img src="/images/ptr.gif" width="320" alt="PTR" /></p>
+
+<div id="4"></div>
+
+
+<h2>Tab bar</h2>
+
+<ul>
+<li>Replace current highlight (darker background) with <strong>color</strong> highlight</li>
+<li>Ensure font is Source Sans Pro</li>
+<li>Move "Topics" icon to the middle (most prominent spot) and "Quizzes" to leftmost</li>
+</ul>
+
+
+<p><img src="/images/selected-tab.png" alt="Tab" /></p>
+
+<div id="5"></div>
+
+
+<h2>Feed view</h2>
+
+<ul>
+<li>Need slightly more spacing between articles</li>
+</ul>
+
+
+<p><img src="/images/feed-spacing.jpg" alt="Feed" /></p>
+
+<ul>
+<li>Add zoom animation when user taps (similar to Feedly)</li>
+<li>Perhaps the same kind of "pull down to dismiss" action?</li>
+</ul>
+
+
+<p><img src="/images/feedly.gif" alt="Feedly" /></p>
+
+<div id="6"></div>
+
+
+<h2>Top navigation bar</h2>
+
+<ul>
+<li>Add a 1px line to the bottom of it #D0D0D0</li>
+<li>On <strong>Channels</strong>, arrow icon should start pointing down. When I tap it, it should <strong>flip</strong> upwards. When I exit dropdown, it should <strong>flip</strong> back to the bottom.</li>
+</ul>
+
+
+<div id="7"></div>
+
+
+<h2>Article navigation bar</h2>
+
+<ul>
+<li>Entire bar should popup a second after page has loaded</li>
+<li>Should <strong>not</strong> appear before its text is loaded</li>
+<li>Add a 1px line to the top of it #D0D0D0</li>
+<li>Height feels a bit too tight with the tab bar; bring back to old height (67pt)</li>
+</ul>
+
+
+<div id="8"></div>
+
+
+<h2>Search</h2>
+
+<ul>
+<li>Missing the big X on the right</li>
+<li>X should clear the search and then close it (if empty)</li>
+<li>Exiting search is currently messed up</li>
+</ul>
+
+
+<p><img src="/images/search-bar.png" width="320" alt="Search" /></p>
+
+<div id="9"></div>
+
+
+<h2>Now Playing</h2>
+
+<ul>
+<li><strong>Now Playing</strong> icon should be animated</li>
+</ul>
+
+
+<h3>On iPhone</h3>
+
+<ul>
+<li>Should be full-screen</li>
+<li>Window should slide up from bottom and have an X control</li>
+<li>User can dismiss by dragging navbar down</li>
+</ul>
+
+
+<p><img src="/images/now-playing.png" width="320" alt="Now playing" /></p>
+
+<h3>On iPad</h3>
+
+<ul>
+<li>Same contents of iPhone control, inside a <em>popover</em> control</li>
+</ul>
+
+
+<div id="10"></div>
+
+
+<h2>Picture View</h2>
+
+<ul>
+<li>Add same behavior from Twitter and Facebook when previewing image – I can drag it up or down and dismiss it rather than having to tap on a X or just tap on the image.</li>
+<li>See Feedly image above</li>
+</ul>
+
+
+<div id="11"></div>
+
+
+<h2>Quizzes</h2>
+
+<ul>
+<li>Home looks super weird (not enough content?); check feeds.</li>
+<li>When home loads, the "Start Quiz"</li>
+<li>Updated the position/look of the score area</li>
+<li>After picking an answer, user should go to the next question when:
+
+<ol type="a">
+<li> tapping next</li>
+<li> swiping left</li>
+</ol>
+</li>
+<li>After picking an answer, here's the order of events:
+
+<ul>
+<li>Selected answer turns green or red; other answers fade away</li>
+<li>"Next question" overlay comes in from the right side</li>
+</ul>
+</li>
+</ul>
+
+
+<p>See this <a href="http://pixt.io/p77d81791ad04">Pixate demo</a> for more details.</p>
+
+<p><img src="/images/quiz-2.png" width="320" alt="Quiz 2" /></p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="container">
+    &copy; 2015 - 23 Divide
+  </div>
+
+</footer>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+
+  </body>
+
+</html>
