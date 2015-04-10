@@ -3,10 +3,10 @@
   <channel>
     <title>HowStuffWorks App Design Notes</title>
     <description>HowStuffWorks App Design Notes</description>
-    <link>http://nandorocker.github.io/hsw-notes/</link>
-    <atom:link href="http://nandorocker.github.io/hsw-notes/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Apr 2015 04:53:24 +0200</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2015 04:53:24 +0200</lastBuildDate>
+    <link>http://nandorocker.github.iohsw-notes/</link>
+    <atom:link href="http://nandorocker.github.iohsw-notes/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 10 Apr 2015 04:55:09 +0200</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2015 04:55:09 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -214,8 +214,8 @@
 &lt;p&gt;&lt;img src=&quot;/images/quiz-2.png&quot; width=&quot;320&quot; alt=&quot;Quiz 2&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Apr 2015 00:00:00 +0200</pubDate>
-        <link>http://nandorocker.github.io/hsw-notes/2015/04/07/hsw-design-round-up.html</link>
-        <guid isPermaLink="true">http://nandorocker.github.io/hsw-notes/2015/04/07/hsw-design-round-up.html</guid>
+        <link>http://nandorocker.github.iohsw-notes/2015/04/07/hsw-design-round-up.html</link>
+        <guid isPermaLink="true">http://nandorocker.github.iohsw-notes/2015/04/07/hsw-design-round-up.html</guid>
         
         
       </item>
